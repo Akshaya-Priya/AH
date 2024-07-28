@@ -1,0 +1,55 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.sidebar {
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding-top: 56px;
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .1);
+}
+
+.sidebar .nav-item .fa {
+    font-size: 16px; /* Adjust the icon size here */
+}
+
+.navbar .navbar-nav .nav-link img {
+    width: 30px;
+    height: 30px; 
+    object-fit: cover; 
+}
+
+
+.navbar .navbar-nav .nav-link {
+    color: white;
+}
+
+.navbar .navbar-nav .nav-link .badge {
+    margin-left: 5px;
+}
+
+.card-body {
+    font-size: 1.25rem;
+    font-weight: bold;
+}
+
+.card-footer h2 {
+    margin: 0;
+}
+
+.card-footer a {
+    text-decoration: none;
+}
+
+.image-frame {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+}
+.image-frame img {
+    max-width: 100%;
+    height: auto;
+}

@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patient History</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+ 
+  <link rel="shortcut icon" href="image/heartbeat-solid.svg" type="image/x-icon">   
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"/>
+  
+  <link rel="stylesheet" href="/med/src/user/css/style.css">
+  <style>
+    .history-header {
+      background-color: #f8f9fa;
+      padding: 15px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+    }
+
+    .history-section {
+      margin-bottom: 30px;
+    }
+  </style>
+</head>
+
+<body>
+
+    
+    <div class="header">
+        <a href="#" class="logo"><i class="fas fa-heartbeat"></i> medcare.</a>
+        <nav class="navbar">
+            <a href="index.html#home">home</a>
+            <a href="doctor.html#appointment">appointment</a>
+            <a href="doctor.html#patient">patients</a>
+            <a href="doctor.html#doctors">doctors</a>
+            <a href="#book">dashboard</a>
+            
+        </nav>
+        <div id="menu-btn" class="fas fa-bars"> HI</div>
+    </div>
+    <br><br><br><br>
+  <div class="container mt-5">
+    <div class="history-header">
+      <h3 class="heading text-center mt-1"><span>Patient</span> History</h3>
+    </div>
+    
+    <div class="history-section">
+      <h2 ><span>Personal</span> Information</h2>
+      <div class="row">
+        <div class="col-md-6">
+          <p><strong>Name:</strong> John Doe</p>
+          <p><strong>Age:</strong> 45</p>
+          <p><strong>Gender:</strong> Male</p>
+        </div>
+        <div class="col-md-6">
+          <p><strong>Contact:</strong> (123) 456-7890</p>
+          <p><strong>Email:</strong> john.doe@example.com</p>
+          <p><strong>Address:</strong> 1234 Elm Street, Anytown, USA</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="history-section">
+      <h4>Medical History</h4>
+      <ul class="list-group">
+        <li class="list-group-item">Diabetes - Diagnosed in 2010</li>
+        <li class="list-group-item">Hypertension - Diagnosed in 2015</li>
+        <li class="list-group-item">Allergy to penicillin</li>
+      </ul>
+    </div>
+
+    <div class="history-section">
+      <h4>Current Medications</h4>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th>Medication</th>
+            <th>Dosage</th>
+            <th>Frequency</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Metformin</td>
+            <td>500 mg</td>
+            <td>Twice a day</td>
+          </tr>
+          <tr>
+            <td>Lisinopril</td>
+            <td>10 mg</td>
+            <td>Once a day</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <div class="history-section">
+      <h4>Appointments</h4>
+      <div class="list-group">
+        <a href="#" class="list-group-item list-group-item-action">June 1, 2024 - Dr. Smith - Routine Checkup</a>
+        <a href="#" class="list-group-item list-group-item-action">July 15, 2024 - Dr. Jones - Diabetes Follow-up</a>
+      </div>
+    </div>
+
+    <div class="history-section">
+      <h4>Notes</h4>
+      <div class="form-group">
+        <textarea class="form-control" rows="5" placeholder="Enter notes here..."></textarea>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>

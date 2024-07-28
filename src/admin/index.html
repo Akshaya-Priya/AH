@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Dashboard</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <a class="navbar-brand text-white" href="#">Bootstrap4 Dashboard</a>
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">Documentation</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">
+                        <img src="https://tse4.mm.bing.net/th?id=OIP.wuv7T0rYK53MT-bYRLOv9QHaHa&pid=Api&P=0&h=180" class="notification-icon" alt="Notification Icon">
+                        <i class="fa fa-bell"></i> <span class="badge badge-danger">6</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-white" href="#">
+                        <img src="https://tse3.mm.bing.net/th?id=OIP.y1yRFUTKR2_q1Psdy0TcZQHaHa&pid=Api&P=0&h=180" class="message-icon" alt="Message Icon">
+                        <i class="fa fa-envelope"></i> <span class="badge badge-success">6</span>
+                    </a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <img src="https://tse1.mm.bing.net/th?id=OIP.toaa7K3kzsniFGp-6dUPQwHaHw&pid=Api&P=0&h=180" class="rounded-circle" alt="User Image">
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Profile</a>
+                        <a class="dropdown-item" href="#">Settings</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="#">Logout</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid">
+        <div class="row">
+            <nav class="col-md-2 d-none d-md-block bg-light sidebar">
+                <div class="sidebar-sticky">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">
+                                <i class="fa fa-dashboard"></i> Dashboard <span class="badge badge-primary">14</span>
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Forms</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">UI Elements</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Tables</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Presentations</a>
+                        </li>
+                    </ul>
+                    <h6 class="sidebar-heading d-flex justify-content-between align-items-center px-3 mt-4 mb-1 text-muted">
+                        <span>User Area</span>
+                    </h6>
+                    <ul class="nav flex-column mb-2">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Profile <span class="badge badge-info">3</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Github</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Twitter</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Facebook</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Settings</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+                <div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+                    <h1 class="h2">Dashboard</h1>
+                </div>
+                <div class="row">
+                    <div class="col-md-3">
+                        <div class="card bg-primary text-white mb-4">
+                            <div class="card-body">Doctors</div>
+                            <div class="card-footer d-flex align-items-center justify-content-between">
+                                <h2>150</h2>
+                                <a class="text-white" href="#">More info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card bg-success text-white mb-4">
+                            <div class="card-body">Patients</div>
+                            <div class="card-footer d-flex align-items-center justify-content-between">
+                                <h2>83%</h2>
+                                <a class="text-white" href="#">More info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card bg-warning text-white mb-4">
+                            <div class="card-body">User Registrations</div>
+                            <div class="card-footer d-flex align-items-center justify-content-between">
+                                <h2>44</h2>
+                                <a class="text-white" href="#">More info</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3">
+                        <div class="card bg-danger text-white mb-4">
+                            <div class="card-body">Unique Visitor</div>
+                            <div class="card-footer d-flex align-items-center justify-content-between">
+                                <h2>65</h2>
+                                <a class="text-white" href="#">More info</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="image-frame">
+                            <img src="https://www.researchgate.net/publication/344393399/figure/fig2/AS:962748582199339@1606548557727/Pie-chart-of-treating-specialties.png" alt="Image 1">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="image-frame">
+                            <img src="https://www.researchgate.net/publication/331664189/figure/fig3/AS:11431281208433569@1701394212126/A-bar-chart-illustrating-the-number-of-patients-in-each-decade-of-life-treated-by-the.tif" alt="Image 2">
+                        </div>
+                </div>
+            </main>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="scripts.js"></script>
+</body>
+</html>
